@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1552829223733496}
+  m_IsPrefabAsset: 1
+--- !u!1 &1552829223733496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4282680511498428}
+  - component: {fileID: 114793821574342532}
+  m_Layer: 0
+  m_Name: Room Templates
+  m_TagString: Rooms
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4282680511498428
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552829223733496}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.4379773, y: 1.2514869, z: 0.10076591}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114793821574342532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552829223733496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d13b0806b7c4a429ed314388e7dcd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottomRooms:
+  - {fileID: 1284868382440490, guid: 843d0e44ca1a9f340913ead985d7bdae, type: 2}
+  - {fileID: 1862792760374060, guid: fd7c12d992854dc4caf5ea4db1d47fb4, type: 2}
+  - {fileID: 1466561066040196, guid: 370a54ff3474b9a4a99df985af84dcb7, type: 2}
+  - {fileID: 1145374078435040, guid: 8ccbb75156edf0a438000573734ecdd1, type: 2}
+  topRooms:
+  - {fileID: 1145374078435040, guid: 8ccbb75156edf0a438000573734ecdd1, type: 2}
+  - {fileID: 1619015907213702, guid: cfeb756c73d74084c95f51d471e0ba1a, type: 2}
+  - {fileID: 1641748644671470, guid: 3dc23d8037ab36b47b44a6f9f199a217, type: 2}
+  - {fileID: 1744785211386104, guid: ff423f5b31d1d754d8078f6a45ea4c1c, type: 2}
+  leftRooms:
+  - {fileID: 1886128404523646, guid: 699ed1dbf3ee31a4485962115d702daf, type: 2}
+  - {fileID: 1485536859253142, guid: 520b4b646a2b6b047840279df25c398d, type: 2}
+  - {fileID: 1862792760374060, guid: fd7c12d992854dc4caf5ea4db1d47fb4, type: 2}
+  - {fileID: 1402713655532718, guid: 1cde22f65f1535e439842c15064ebaa0, type: 2}
+  - {fileID: 1641748644671470, guid: 3dc23d8037ab36b47b44a6f9f199a217, type: 2}
+  rightRooms:
+  - {fileID: 1051008581289332, guid: c94a0b97b71ac90409a4eac28e3a6793, type: 2}
+  - {fileID: 1485536859253142, guid: 520b4b646a2b6b047840279df25c398d, type: 2}
+  - {fileID: 1466561066040196, guid: 370a54ff3474b9a4a99df985af84dcb7, type: 2}
+  - {fileID: 1744785211386104, guid: ff423f5b31d1d754d8078f6a45ea4c1c, type: 2}
+  leftTopRooms:
+  - {fileID: 1641748644671470, guid: 3dc23d8037ab36b47b44a6f9f199a217, type: 2}
+  leftBottomRooms:
+  - {fileID: 1862792760374060, guid: fd7c12d992854dc4caf5ea4db1d47fb4, type: 2}
+  rightTopRooms:
+  - {fileID: 1744785211386104, guid: ff423f5b31d1d754d8078f6a45ea4c1c, type: 2}
+  rightBottomRooms:
+  - {fileID: 1466561066040196, guid: 370a54ff3474b9a4a99df985af84dcb7, type: 2}
+  leftRightRooms:
+  - {fileID: 1485536859253142, guid: 520b4b646a2b6b047840279df25c398d, type: 2}
+  topBottomRooms:
+  - {fileID: 1145374078435040, guid: 8ccbb75156edf0a438000573734ecdd1, type: 2}
+  closedTopRooms:
+  - {fileID: 1619015907213702, guid: cfeb756c73d74084c95f51d471e0ba1a, type: 2}
+  closedRightRooms:
+  - {fileID: 1051008581289332, guid: c94a0b97b71ac90409a4eac28e3a6793, type: 2}
+  closedLeftRooms:
+  - {fileID: 1886128404523646, guid: 699ed1dbf3ee31a4485962115d702daf, type: 2}
+  closedBottomRooms:
+  - {fileID: 1284868382440490, guid: 843d0e44ca1a9f340913ead985d7bdae, type: 2}
+  closedRoom: {fileID: 0}
+  rooms: []
+  waitTime: 0.2
+  boss: {fileID: 1292378283076714, guid: 4c04c07e709455740aa5dfe0d3e4d0bc, type: 2}
